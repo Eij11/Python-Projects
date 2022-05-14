@@ -7,8 +7,8 @@ def print_slow(str):
     for letter in str:
         sys.stdout.write(letter)
         sys.stdout.flush()
-        #time.sleep(0.04)
-        time.sleep(0.001)
+        time.sleep(0.04)
+        #time.sleep(0.001)
 
 def header():
     print('\t\t\tPokemon')
