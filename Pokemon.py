@@ -11,14 +11,15 @@ def print_slow(str):
         #time.sleep(0.001)
 
 def header():
+    print('=========================xxxxx============================')
     print('\t\t\tPokemon')
     print('=========================xxxxx============================')
 
 
 def introduction():
     header()
-    print_slow('In the world which you are about to enter, you will embark\non a grand adventure with you as the hero. New paths will open to you\nby helping people in need, overcoming challenges, and solving mysteries.\nThrough your adventure, we hope that you will interact with all sorts of\npeople and achieve personal growth. That is our biggest objective.')
-    time.sleep(1)
+    print_slow('In the world which you are about to enter, you will embark\non a grand adventure with you as the hero. New paths will open\nto you by helping people in need, overcoming challenges, and\nsolving mysteries.Through your adventure, we hope that you\nwill interact with all sorts of people and achieve personal\ngrowth. That is our biggest objective.')
+    time.sleep(3)
     os.system('cls')
 
 def prof_oak():
@@ -209,12 +210,12 @@ def credits():
     time.sleep(3)
 #MAIN
 
+print('=========================xxxxx============================')
 print('\t\t\tPokemon')
 print('=========================xxxxx============================')
-print('\t\t\t[1] Start')
-start = int(input('>> '))
+start = input("\t\t[Press any keys to start]")
 os.system('cls')
-if start == 1: 
+if start == start: 
     introduction()
     prof_oak()
 
